@@ -1,0 +1,25 @@
+{
+    "name": "vaneves/collection-extractor",
+    "description": "Doctrine Collection Extractor",
+    "keywords": [
+    	"doctrine",
+        "extractor"
+    ],
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Diego Oliveira Rodrigues",   
+            "email": "diegopso2@gmail.com"
+        },
+        {
+            "name": "Valdirene Neves Junior",   
+            "email": "vaneves@vaneves.com"
+        }
+    ],
+    "require": {
+        "doctrine/doctrine-module": "^0.9.0"
+    },
+    "autoload": {
+        "psr-4": { "Vaneves\\": "src/Vaneves" }
+    }
+}
